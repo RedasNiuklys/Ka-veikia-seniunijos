@@ -8,7 +8,6 @@ import Map from "./components/Pages/Map/Map";
 import Administrative from "./components/Pages/Administrative/Administrative.js";
 import About from "./components/Pages/About/About";
 import isAuthorized from "./utils/isAuthorized";
-import Problem from "./components/Pages/Problem/Problem";
 import NotFoundPage from './components/Pages/NotFound/NotFound';
 
 function getToken() {
@@ -30,7 +29,6 @@ export default class App extends Component {
                     <Route exact path='/eldership' component={Eldership} />
                     <Route exact path='/mailbox' component={Mailbox} />
                      <Route exact path='/map' component={Map} />
-                     <Route exact path='/admin/eldership' component={Administrative}/>
                      <Route exact path="/about" component={About} />
                     <Route
                       exact
