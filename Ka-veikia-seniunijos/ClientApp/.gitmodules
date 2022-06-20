@@ -1,0 +1,3 @@
+[submodule "/ClientApp/Ka-veikia-seniunijos"] 
+  path = /ClientApp/Ka-veikia-seniunijos 
+  url = git@github.com:RedasNiuklys/Ka-veikia-seniunijos.git
